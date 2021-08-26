@@ -12,7 +12,7 @@ button.addEventListener('click', function LocalStorage() {
             localStorage.setItem("email", email);
             localStorage.setItem("password", password);
             alert('BIENVENIDO, SERAS REDIGERIDO A LA WEB OFICIAL')
-            window.location = "index.html";
+            window.location = "index2.html";
             
         }else{
              alert("INCORRECTO");
