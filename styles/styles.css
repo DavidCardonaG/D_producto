@@ -134,3 +134,11 @@ code {
     min-width: 233px;
   }
 }
+#icon-login{
+  background-color: rgb(199, 194, 194);
+  color: rgb(0, 0, 0);
+  width:100px;
+  height:40px;
+  font-size:2rem;
+  border-radius:10px
+}
