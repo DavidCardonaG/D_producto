@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOCUMENTACIÓN JS</title>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
+    <link rel="stylesheet" href="./styles/registro.css">
+</head>
+
+<body id="home">
+    <header>
+        <div>
+            <h1 id="title">REGISTRATE Y ACCEDE A CONTENIDO EXCLUSIVO</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+        <div class="div-usuario">
+            <div class="row usuario">
+                    <h1><a href="login.html">LOGIN</a>Crear Perfil</h1>
+                <div class="col datos">
+
+                </div>
+            </div>
+            <form id="formulario">
+                <div class="input">
+                    <label for="name" >Nombre</label>
+                    <input id="name" name="name"  type="text">
+                </div>
+                <div class="input">
+                    <label for="lastName" >Apellido</label>
+                    <input id="lastName" name="lastName"  type="text" >
+                </div>
+                <div class="input">
+                    <label for="email" >Email</label>
+                    <input id="email" name="email"  type="text" >
+                </div>
+                <div class="input">
+                    <label for="name">Password</label>
+                    <input id="pass" name="password"  type="password">
+                </div>
+                <div class="input">
+                    <label for="name">Telefono</label>
+                    <input id="telefono" name="number"  type="text" >
+                </div>
+                <div class="input">
+                    <label id="label-edit" for="id">Id</label>
+                    <input id="id" name="id"  type="text" placeholder="" readonly>
+                </div>
+                <div class="boton">
+                    <button id="btnGuardar" type="submit" class="btn">REGISTARSE</button>
+                </div>
+                <div class="boton">
+                    <button id="btnTelefono" type="button" class="btn">BUSCAR USUARIO</button>
+                </div>
+                <div class="boton">
+                    <button id="btnEditar" type="button" class="btn">EDITAR PERFIL</button>
+                </div>
+                <div class="boton">
+                    <button id="btnEliminar" type="button" class="btn">ELIMINAR USUARIO</button>
+                </div>
+            </form>
+        </div>
+        </div>
+    </main>
+    <script src="./scripts/scripts.js"></script>
+    
+</body>
+</html>

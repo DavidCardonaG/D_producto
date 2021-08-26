@@ -8,9 +8,6 @@ body {
 }
 
 #navbar {
-    background-color: rgba(70, 67, 67, 0.205);
-    color: black;
-    font-weight: bold;
   position: fixed;
   min-width: 290px;
   top: 0px;
@@ -19,6 +16,7 @@ body {
   height: 100%;
   border-right: solid;
   border-color: rgba(0, 22, 22, 0.4);
+  background-color: rgba(85, 80, 80, 0.534);
 }
 #image{
     width: 50px;

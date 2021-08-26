@@ -1,0 +1,20 @@
+{
+  "usuarios": [
+    {
+      "nombre": "David",
+      "apellido": "Cardona",
+      "correo": "davidcardonagarcia67@gmail.com",
+      "contraseña": "david8902",
+      "celular": "3198763245",
+      "id": 1
+    },
+    {
+      "nombre": "david",
+      "apellido": "alvarez",
+      "correo": "david@gmail.com",
+      "contraseña": "havjxcjajcva",
+      "celular": "3104027113",
+      "id": 2
+    }
+  ]
+}
